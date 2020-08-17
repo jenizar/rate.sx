@@ -8,6 +8,7 @@ import sys
 import os
 import locale
 
+#from terminaltables import AsciiTable
 from terminaltables import WindowsTable
 # Other useful tables:
 #  GithubFlavoredMarkdownTable, SingleTable, DoubleTable, PorcelainTable
