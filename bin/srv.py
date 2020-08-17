@@ -36,7 +36,7 @@ SKIP_LOGGING_FOR_THIS_IPS = set([
 ])
 
 from globals import FILE_QUERIES_LOG, LOG_FILE, TEMPLATES, STATIC, log, error
-from cmd_wrapper import cmd_wrapper
+#from cmd_wrapper import cmd_wrapper
 from parse_query import parse_query
 
 if not os.path.exists(os.path.dirname(LOG_FILE)):
